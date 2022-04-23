@@ -8,8 +8,13 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [{
     type: "input",
+    name: "title",
+    message: "What is the title of this project?",
+},
+    {
+    type: "input",
     name: "description",
-    message: "Please describe your project?",
+    message: "Please describe this project.",
 },
 {
     type: "input",
@@ -19,7 +24,7 @@ const questions = [{
 {
     type: "input",
     name: "usage",
-    message: "What is the proposed usage for your project?",
+    message: "What is the proposed usage for this project?",
 },
 {
     type: "input",
@@ -37,7 +42,6 @@ const questions = [{
     message: "What license would you like to use?",
     choices: ["MIT", "Apache", "GPL", "ISC", "BSD"]
 },
-
 ];
 
     // const readmeText = generateMarkdown(data)
