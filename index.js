@@ -19,7 +19,7 @@ const questions = [{
 {
     type: "input",
     name: "installation",
-    message: "Please describe installation of the application.",
+    message: "Please describe installation steps for the application.",
 },
 {
     type: "input",
@@ -40,7 +40,7 @@ const questions = [{
     type: "list",
     name: "license",
     message: "What license would you like to use?",
-    choices: ["MIT", "Apache", "GPL", "ISC", "BSD"]
+    choices: ["MIT", "Apache", "GPL"]
 },
 ];
 
