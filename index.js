@@ -55,10 +55,9 @@ const questions = [{
 ];
 
 // FIX THIS PART
-// TODO: Create a function to write README file 
-// was function writeToFile(fileName, data) {} This funtion is modeled from exercise 13 week 9
-function writeToFile(fileName, data) {
-    fs.writeFile("sampleREADME.md", data, (err) =>
+// TODO: Create a function to write README file. This funtion is modeled from exercise 13 week 9
+function writeToFile(data) {
+    fs.writeFile("sampleREADME.md", generateMarkdown(data), (err) =>
         err ? console.error(err) : console.log('Done')
     );
 };
@@ -68,7 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        // .then(writeToFile)
+        .then(writeToFile)
 }
 
 // Function call to initialize app

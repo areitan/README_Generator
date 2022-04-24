@@ -1,89 +1,77 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) { 
-
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-
-
-// FIX THIS
 // https://shields.io/category/license liscence links are from lukas-h: license-badges.md
 function renderLicenseLink(license) {
+  console.log(license)
   if (license === "MIT") {
-    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+   return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   }
   if (license === "Apache") {
-"[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    return `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
   }
   if (license === "ISC") {
-"[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+    return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`
   } 
   if (license === "") {
-""
-  } 
+  return ""
+  }
+ 
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
 
-}
-
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  ---
+return `# ${data.title}
+
+${renderLicenseLink(data.license)}
+
+---
+
+## Description
   
-  ## Description
-  
-  ${data.description}
+${data.description}
 
 
 ---
-  ## Table of Contents
+## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Tests](#tests)
-  - [Credits](#credits)
-  - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Credits](#credits)
+- [License](#license)
+
+---
+## Installation
+
+${data.installation}
 
 
 ---
-  ## Installation
+## Usage
 
-  ${data.installation}
-
-
----
-  ## Usage
-
-  ${data.usage}
+${data.usage}
 
 
 ---
-  ## Tests
+## Tests
 
-  ${data.test}
+${data.test}
 
 
 ---
-  ## Credits
+## Credits
 
-  ${data.credits}
+${data.credits}
 
 
 ### Questions
 
-For any question, please contact me on GitHub at [${data.username}](https://github.com/${data.username}) or by email at <${data.email}>.
+For any question, please contact me on GitHub at [${data.username}](https://github.com/${data.username}) or by email at ${data.email}.
 
 
 ---
-  ## License
+## License
 
-  ${data.license}
+${data.license}
 
   
 `;
