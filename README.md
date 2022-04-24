@@ -31,12 +31,20 @@ This application generates a ```README.md``` file given user input. [Inquirer](h
 
 The purpose of this exercise is to use ```node.js``` in a bash terminal to generate a professional ```README.md``` file.  
 
-![Initializing the application](/assets/images/************.png)
+### Initialization
+![Initializing the application](/assets/images/initialize1.png)
+
+### Follow The Prompts
+![Follow The Prompts](/assets/images/prompt2.png)
+
+![Follow The Prompts2](/assets/images/prompt3.png)
+
+
 
 ---
 ## Tests
 
-For this project I tested the application manually by entering input as a user with the goal of generating the appropriate ```README.md``` file. 
+For this project, I tested the application manually by entering input as a user with the goal of generating the appropriate ```README.md``` file. 
 
 
 --- 

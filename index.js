@@ -55,22 +55,22 @@ const questions = [{
 ];
 
 // FIX THIS PART
-// TODO: Create a function to write README file This funtion is modeled from exercise 13 week 9
-// waas function writeToFile(fileName, data) {}
-
+// TODO: Create a function to write README file 
+// was function writeToFile(fileName, data) {} This funtion is modeled from exercise 13 week 9
 function writeToFile(fileName, data) {
     fs.writeFile("sampleREADME.md", data, (err) =>
         err ? console.error(err) : console.log('Done')
     );
-}
-
+};
 
 
 // TODO: Create a function to initialize app. Uses inquirer prompt
 function init() {
     inquirer
         .prompt(questions)
+        // .then(writeToFile)
 }
 
 // Function call to initialize app
 init();
+
