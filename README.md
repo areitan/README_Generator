@@ -1,5 +1,7 @@
 # README Generator
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ---
 ## Description
 
@@ -23,7 +25,7 @@ This application generates a ```README.md``` file given user input. [Inquirer](h
  In order to run this program, open a Bash terminal navigate to the ```README_Generator``` project directory and run the code ```node index.js```.
 
 - [README Generator Git Hub Repository](https://github.com/areitan/README_Generator)
-- [README Generator Walkthrough Video Link](************)
+- [README Generator Walkthrough Video Link](https://drive.google.com/file/d/16SDVoe-aAgt74ESh_sAfi4shKNmoHkdi/view)
 
 
 ---
@@ -39,6 +41,11 @@ The purpose of this exercise is to use ```node.js``` in a bash terminal to gener
 
 ![Follow The Prompts2](/assets/images/prompt3.png)
 
+### Sample README
+![Sample README](/assets/images/sample_README.png)
+
+### Sample README Preview
+![Sample README Preview](/assets/images/sample_README_Preview.png)
 
 
 ---

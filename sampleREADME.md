@@ -15,7 +15,6 @@ This application generates a ```README.md``` file given user input. [Inquirer](h
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Credits](#credits)
 - [License](#license)
 
 ---
