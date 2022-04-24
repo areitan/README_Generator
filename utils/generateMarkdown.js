@@ -1,18 +1,21 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) { }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+
+
+// FIX THIS
 // https://shields.io/category/license
 function renderLicenseLink(license) {
-  if (license === "MIT"){ 
+  if (license === "MIT") {
 
   }
-  if (license === "Apache"){ 
+  if (license === "Apache") {
 
   }
-  if (license === "GPL"){ 
+  if (license === "GPL") {
 
   }
 }
@@ -69,8 +72,7 @@ function generateMarkdown(data) {
 
 ### Questions
 
-For any question, please contact me on GitHub at: 
-[${data.username}](https://github.com/${data.username})
+For any question, please contact me on GitHub at [${data.username}](https://github.com/${data.username}) or by email at <${data.email}>.
 
 
 ---

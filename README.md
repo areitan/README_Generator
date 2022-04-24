@@ -54,8 +54,7 @@ In order to create this application, I used the skills I have at the moment. I a
 
 ### Questions
 
-For any question, please contact me on GitHub at: 
-[areitan](https://github.com/areitan)
+For any question, please contact me on GitHub at: [areitan](https://github.com/areitan) or by email at <areitan@fredhutch.org>.
 
 ---
 

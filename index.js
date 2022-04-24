@@ -9,14 +9,19 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [{
     type: "input",
     name: "username",
-    message: "What is GitHub username?",
+    message: "What is your GitHub username?",
+},
+{
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
 },
 {
     type: "input",
     name: "title",
     message: "What is the title of this project?",
 },
-    {
+{
     type: "input",
     name: "description",
     message: "Please describe this project.",
@@ -49,11 +54,14 @@ const questions = [{
 },
 ];
 
-const readmeText = generateMarkdown(data)
+// FIX THIS PART
+// TODO: Create a function to write README file This funtion is modeled from exercise 13 week 9
+// waas function writeToFile(fileName, data) {}
 
-// TODO: Create a function to write README file
-function writeToFile("SampleREADME.md", readmeText) {
-
+function writeToFile(fileName, data) {
+    fs.writeFile("sampleREADME.md", data, (err) =>
+        err ? console.error(err) : console.log('Done')
+    );
 }
 
 
@@ -61,8 +69,8 @@ function writeToFile("SampleREADME.md", readmeText) {
 // TODO: Create a function to initialize app. Uses inquirer prompt
 function init() {
     inquirer
-    .prompt (questions)
- }
+        .prompt(questions)
+}
 
 // Function call to initialize app
 init();
