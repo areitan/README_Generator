@@ -60,10 +60,11 @@ function generateMarkdown(data) {
   ${data.credits}
 
 
-  ### Questions
+### Questions
 
-For any question, please contact me at: 
-${data.username}[https://github.com/${data.username}
+For any question, please contact me on GitHub at: 
+[${data.username}](https://github.com/${data.username})
+
 
 ---
   ## License
