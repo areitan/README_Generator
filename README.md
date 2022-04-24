@@ -11,7 +11,7 @@ This application generates a ```README.md``` file given user input. [Inquirer](h
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Tests](#test)
+  - [Tests](#tests)
   - [Contribute](#contribute)
   - [Credits](#credits)
   - [License](#license)
@@ -55,8 +55,8 @@ In order to create this application, I used the skills I have at the moment. I a
 ---
 ## Credits
 
-- [Yeshwanthini, S:“Open source license in GitHub: “How to add license to a GitHub repository?“](https://medium.com/techiepedia/open-source-license-in-github-how-to-add-license-to-a-github-repository-df61ac4fc497)
-- [Coding Boot Camp:Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [Yeshwanthini, S: “Open source license in GitHub: “How to add license to a GitHub repository?“](https://medium.com/techiepedia/open-source-license-in-github-how-to-add-license-to-a-github-repository-df61ac4fc497)
+- [Coding Boot Camp: Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Kent C. Dodds at egghead.io: Adding badges to your README](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme)
 - [Shields IO](https://shields.io/category/license)
