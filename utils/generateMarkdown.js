@@ -36,7 +36,6 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Credits](#credits)
 - [License](#license)
 
 ---
@@ -58,11 +57,6 @@ ${data.test}
 
 
 ---
-## Credits
-
-${data.credits}
-
-
 ### Questions
 
 For any question, please contact me on GitHub at [${data.username}](https://github.com/${data.username}) or by email at ${data.email}.
