@@ -1,23 +1,28 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { }
+function renderLicenseBadge(license) { 
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 
 
 // FIX THIS
-// https://shields.io/category/license
+// https://shields.io/category/license liscence links are from lukas-h: license-badges.md
 function renderLicenseLink(license) {
   if (license === "MIT") {
-
+    "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
   if (license === "Apache") {
-
+"[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
-  if (license === "GPL") {
-
-  }
+  if (license === "ISC") {
+"[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+  } 
+  if (license === "") {
+""
+  } 
 }
 
 // TODO: Create a function that returns the license section of README

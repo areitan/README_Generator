@@ -56,7 +56,12 @@ In order to create this application, I used the skills I have at the moment. I a
 ## Credits
 
 - [Yeshwanthini, S:“Open source license in GitHub: “How to add license to a GitHub repository?“](https://medium.com/techiepedia/open-source-license-in-github-how-to-add-license-to-a-github-repository-df61ac4fc497)
- - [Coding Boot Camp:Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [Coding Boot Camp:Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [Markdown Guide: Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+- [Kent C. Dodds at egghead.io: Adding badges to your README](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme)
+- [Shields IO](https://shields.io/category/license)
+- [lukas-h: license-badges.md](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+
 - Trilogy Education Services, LLC for the starter code and example code throughout the week 9 exercises.
 - Chris Baird, my tutor
 
