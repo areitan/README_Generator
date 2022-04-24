@@ -8,6 +8,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [{
     type: "input",
+    name: "username",
+    message: "What is GitHub username?",
+},
+{
+    type: "input",
     name: "title",
     message: "What is the title of this project?",
 },
@@ -44,10 +49,10 @@ const questions = [{
 },
 ];
 
-    // const readmeText = generateMarkdown(data)
+const readmeText = generateMarkdown(data)
 
 // TODO: Create a function to write README file
-function writeToFile(file, readmeText) {
+function writeToFile("SampleREADME.md", readmeText) {
 
 }
 
